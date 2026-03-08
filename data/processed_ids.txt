@@ -1,0 +1,2 @@
+# Käsitellyt lausuntopyynnöt
+# Tähän tallennetaan IDs lausunnoista jotka on jo analysoitu
