@@ -5,7 +5,7 @@ def analyze_lausunto(title, content, url):
     """Analysoi lausuntopyynnön Claude API:lla"""
     
     api_key = os.getenv("CLAUDE_API_KEY")
-    client = Anthropic()
+    client = Anthropic(api_key=api_key)
     
     prompt = f"""
 Analysoi seuraava lausuntopyyntö ja määritä, liittyykö se lakiin 380/2023 
